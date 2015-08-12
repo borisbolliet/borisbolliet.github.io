@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-----------HEADLINE IN BROWSER------>
+
+  <head>
+<title>Boris Bolliet - Personal website</title>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-2" />
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+
+
+
+<body>
+<div class="content">
+ 
+  <div class="header">
+    <div class="title">Boris Bolliet</div>
+    <div class="slogan">PhD Student, <i>"The expanding universe: primordial and contemporary acceleration."</i><br/>
+      <h3>Laboratoire de Physique Subatomique et de Cosmologie (LPSC Grenoble, France) <br>&Eacute;cole Normale Supérieure de Lyon (ENS Lyon, France)<h3/>
+   </div>
+      </div>
+
+
+      
+  <div id="nav">
+    <ul>
+      <li id="current"><a href="index.html">Home</a></li>
+      <li><a href="Research.html">Research</a></li>
+      <li><a href="Teaching.html">Teaching</a></li>
+      <li><a href="ShortReviews.html">Short reviews</a></li>
+   <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  
+  <div class="main_content">
+   <div class="sd_right">
+        <h2>Latest articles</h2>
+        <img src="images/timeicon.gif" alt="" /> <a href="http://inspirehep.net/record/1383844">Bouncing Black Holes (June)</a><br />
+        <img src="images/timeicon.gif" alt="" /> <a href="http://inspirehep.net/record/1343473">Primordial power spectrum in Loop Quantum Cosmology (February)</a><br />
+        <br />
+	
+        <h2>Links</h2>
+
+	<img src="images/timeicon.gif" alt="" /> <a href="http://lpsc.in2p3.fr/index.php/en/" target="_top">LPSC Grenoble</a><br />
+	
+        <img src="images/timeicon.gif" alt="" /> <a href="http://arxiv.org/find/all/1/all:+bolliet/0/1/0/all/0/1?skip=0&query_id=1ef62e3f2b8a9557" target="_top">Publications on arXiv </a><br />
+
+ <img src="images/timeicon.gif" alt="" /> <a href="http://inspirehep.net/author/profile/B.Bolliet.1?ln=fr" target="_top">Profile on inspirehep  </a><br />
+
+	
+    </div>
+
+    
+    <div class="sd_left">
+        <h2>About</h2>	
+  	<h1>I am a PhD student at Laboratoire de Physique Subatomique et de Cosmologie (LPSC) in  Grenoble, France. My supervisor is Pr. Aurélien Barrau, a group member of both LSST and AMS experiments, and Head of the Master in Subatomique and Astroparticle Physics at Grenoble University, which I graduated from in June 2014. <br/><br/>
+	  I am also a fellow of &Eacute;cole Normale Supérieure de Lyon since 2009. This prestigeous instutions has been providing me with a genereous scolarship for the whole duration of my undergraduate studies, as well as the grant for my PhD studies. 
+<br />
+<br />
+        
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Aliquam ornare diam iaculis nibh. Proin luctus, velit pulvinar ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est. Fusce et odio sit amet erat ullamcorper accumsan.Proin luctus, velit pulvinar ullamcorper nonummy, mauris enim eleifend urna, congue egestas elit lectus eu est. Fusce et odio sit amet erat ullamcorper accumsan.
+<br />
+  <br />
+<div class="date">August 2015
+	        </div>
+      
+      
+       <h1/>
+    </div>
+
+  </div>
+</div>
+</body>
+</html>

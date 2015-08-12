@@ -1,0 +1,209 @@
+/*VERTICAL COLORS*/
+body {
+ background-color: #FF3366;
+ color: #FFF;
+ padding: 0;
+ margin: 0 0 0 0;
+ font: 1.em Arial,Sans-Serif;
+ line-height: 1.6em;
+}
+
+
+
+
+
+/*TITLE BAGROUND*/
+.header {
+	background: #303030;
+	color: #FFF;
+	width: 950px;
+	height: 160px;
+	margin: 0;
+	padding: 0;
+}
+
+/*BORIS BOLLIET COLOR*/
+.header .title {
+	float: left center;
+	padding: 10px 0 0px 84px;
+	color: #33CCFF;
+	font: bold 2.9em Arial, sans-serif;
+}
+
+
+/*AFFILIATION COLOR*/
+.header .slogan {
+	float: left;
+	clear: both;
+	padding: 0px 0 0 84px;
+	color: #FFF;
+	font: bold 1.1em Arial, sans-serif;
+}
+
+
+
+
+/*NAVIGATOR BAR*/
+#nav {
+    background: #FF3366  no-repeat center bottom;
+    	padding: 10px 0 2.5px 0px;
+	height: 65px;
+}
+
+
+
+/*CURSOR IN NAVIGATOR BAR*/
+#nav #current a {
+    float:left;
+    background: #33CCFF;
+    padding:10px 10px 10px 10px;
+    color:#FFF; }
+
+#nav a:hover {
+    float:left;
+    color:#FFF;
+    background: #33CCFF;
+
+}
+
+
+
+
+#nav ul {	
+          width: 950px;
+           margin:0;
+	  list-style:none;
+	  padding: 0px 0 0 0px;
+	}
+
+
+
+#nav a {
+    float:left;
+    display:block;
+    color:#303030;
+    padding: 10px 10px 10px 10px;
+ 
+    text-decoration:none;
+    font-weight: bold;
+font: bold 2em Arial, Sans-Serif;}
+
+
+
+
+#nav li {
+    float:left;
+    color: #FFF;
+    }
+
+
+
+/*TITLES IN THE BODY*/
+h2 {
+    font: Bold 2em Arial, Sans-Serif;
+    color: #FF3366;
+    letter-spacing: -1px; }
+
+/*
+
+.main_content h2 {
+	background-color: #FFF;
+	color: #000CC;
+	font: bold 2em Arial, sans-serif;
+}
+
+*/
+
+/*FONT FOR SLOGAN*/
+h3 { font: 0.85em Arial, Sans-Serif; }
+
+
+/*FONT FOR HYPERLINKS*/
+a { color: #000000; background: inherit; }
+
+
+
+/*FONT FOR TEXT BODY*/
+h1 { font: 1.1em Arial, Sans-Serif;
+     color: #303030;
+     text-align: justify;
+   }
+
+h4 {
+    font: 1.5em Arial, Sans-Serif;
+   color: #FF3366;}
+
+
+/*class for contact*/
+.text_padding_contact {
+    
+    background-color: #FFF;
+    float: center;
+    color: #000;
+    padding:0 150px 10px 150px;
+    
+}
+
+
+.content { 
+    background: #FFF; 
+	margin: 0 auto;
+	padding: 0px;
+	width: 950px;
+	color: #000;
+}
+
+
+
+
+.main_content {
+	background: #FFF ;
+	background-color: #FFF;
+	width: 950px;
+
+}
+
+
+
+
+
+.sd_left {
+
+    background-color: #FFF;
+    float: left;
+	color: #000;
+	width: 640px;
+	 height: 650px;
+	padding: 0 15px 0px 15px; 
+	
+}	
+
+.sd_right {
+
+    background-color: #FFF;
+    float: right;
+	color: #000;
+	width: 264px;
+        height: 650px;
+	border-left: 1px dashed #303030;
+	padding:0 0 0 15px;
+}	
+
+
+.text_padding {
+    
+    background-color: #FFF;
+    float: center;
+    color: #000;
+    padding:0 15px 10px 15px;
+    
+}
+
+
+
+
+.date { 
+    text-align: right;
+    Color: #B0B0B0;
+	border-top: 1px solid #303030;
+}

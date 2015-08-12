@@ -1,0 +1,230 @@
+/*
+By Herreman David
+http://www.free-css-templates.com
+StyleSheet for BinaryNews Template
+*/
+
+body {
+ background-color: #0000CC;
+ color: #FFF;
+ padding: 0; margin: 0; font: 1.em Arial, Sans-Serif; line-height: 1.6em;
+}
+
+a { color: #000000; background: inherit; }
+
+
+
+
+h1 { font: 1.1em Arial, Sans-Serif; }
+
+
+
+h2 { margin: 0; padding: 0; font: normal 1.6em Arial, Sans-Serif;color: #0000CC; letter-spacing: -1px; }
+
+
+h1 a { color: #46574D; background: inherit; }
+
+h1 a, h2 a { text-decoration: none; }
+
+
+h1 a:hover, h2 a:hover { color: #0000CC; background: inherit; }
+
+
+h3 { font: 90% Arial, Sans-Serif; margin: 0 0 10px 0; padding: 0; color: #46574D; background: #FFF; }
+
+
+p {	margin: 0 0 0px 0; line-height: 1.5em; }
+
+
+form { margin: 0; }
+
+
+
+
+.content { 
+    background: #FFF; 
+	margin: 0 auto;
+	padding: 0px;
+	width: 886px;
+	color: #000;
+}
+
+
+.header {
+	background: #000;
+	color: #FFF;
+	width: 886px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+}
+
+.header .title {
+	float: left center;
+	padding: 12px 0 0 84px;
+	color: #FFF;
+	font: bold 2.8em Arial, sans-serif;
+}
+
+.header .slogan {
+	float: left;
+	clear: both;
+	padding: 2px 0 0 84px;
+	color: #FFF;
+	font: bold 1.1em Arial, sans-serif;
+}
+
+#nav {
+	background: #0000CC  no-repeat center bottom;
+	background-color: #000CC;
+	width: 886px;
+	height: 61px;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul {	background: #0000CC  no-repeat center bottom;
+		background-color: #000CC;
+		width: 886px;
+	height: 71px;
+           margin:0;
+	  list-style:none;
+	  padding: 0px 0 0 0px;
+	}
+
+
+
+
+#nav a {
+    float:left;
+    display:block;
+    color:#fff;
+    padding: 10px 15px 10px 15px;
+    background: #9e9e9e;
+    text-decoration:none;
+    font-weight: bold;
+font: bold 2em Arial, Sans-Serif;}
+
+
+
+#nav li {
+    float:left;
+    color: #FFF;
+    background: #9e9e9e;
+    height: 61px;
+    margin:0;
+    padding:0 0 0 0px; }
+
+
+#nav #current { float:left; background: #aeaeae; color: #FFF; }
+
+#nav #current a { float:left; background: #aeaeae; padding:10px 15px 10px 15px; color:#FFF; }
+
+#nav a:hover { float:left; color:#FFF; background: #aeaeae; }
+
+
+
+#nav .padding { padding: 5px 0 0 10px; font-weight: bold; }
+
+
+.main_content {
+	background: #FFF ;
+	background-color: #FFF;
+	margin: 0 auto;
+	padding: 0px;
+	width: 886px;
+}
+
+
+.sd_left {
+
+    background-color: #FFF;
+	color: #000;
+	margin: 0 0 0px 50px;
+	padding: 0px 100px 10px 0px;
+	width: 550px;
+	
+}	
+
+.sd_right {
+    clear:both;
+    background-color: #FFF;
+	float: right;
+	color: #000;
+	margin: 0 10px 0 0;
+	padding: 0px 0px 0 10px;
+	width: 200px;
+	height: 100%;
+	border-left: 1px dashed #ccc;
+}	
+
+
+.text_padding {
+	padding: 15px 0 0 0;
+}
+
+.main_content h2 {
+	background-color: #FFF;
+	padding: 5px 0 5px 0;
+	color: #000CC;
+	font: bold 2em Arial, sans-serif;
+}
+
+
+.date { 
+	color: #000CC; 
+	background: #FFFFFF;
+	text-align: right; 
+	margin: 10px 0 5px 0; 
+	padding: 0.4em 0 0 0; 
+	border-top: 1px solid #eee;
+}
+
+input.button { 
+	background: #FFFFF4; 
+	color: #808080;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.error {
+	color: #990000;
+	background-color: #FFF0F0;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px dashed #990000;
+}
+.error h2 {
+	color: #990000;
+	background: inherit;
+}
+
+.success {
+	color: #000000;
+	background: #F5FBE1;
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px dashed #7BA813;
+}
+.success h2 {
+	color: #7BA813;
+	background: inherit;
+}
+
+.footer { 
+	background: #000 url(footer.jpg) center no-repeat;
+	width: 886px;
+	height: 78px;
+	color:#555;  
+	font-size:90%;
+	text-align:center; 
+	clear:both;
+}
+
+		.footer .padding {
+			padding: 40px 0 0 0;
+				
+		}
+
