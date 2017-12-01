@@ -17,7 +17,7 @@ body {
 	background: #303030;
 	color: #FFF;
 	width: 950px;
-	height: 180px;
+	height: 200px;
 	margin: 0px;
 
 }
@@ -36,10 +36,17 @@ body {
     padding: 10px 0 0px 0px;
         text-align:center;
 	color: #FFF;
-	font: bold 1.1em Arial, sans-serif;
+	font: bold 1.5em Arial, sans-serif;
 }
 
 
+
+
+br-thin {
+  content: " ";
+  display: block;
+  margin: 10px;
+}
 
 
 /*NAVIGATOR BAR*/
@@ -210,7 +217,7 @@ h2 {
 
 
 /*FONT FOR SLOGAN*/
-h3 { font: 0.85em Arial, Sans-Serif; }
+h3 { font: 0.85em Arial, Sans-Serif;text-align:center; }
 
 
 
@@ -246,7 +253,11 @@ h1 { font: 1.3em Arial, Sans-Serif;
 
 
 
+LEFT {
+    display: inline-block;
+        text-align: left;
 
+}
 
 
 
