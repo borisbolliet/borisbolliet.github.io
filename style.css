@@ -26,7 +26,7 @@ body {
 .header .title {
     padding: 10px 0 0px 0px;
     text-align:center;
-	color: #33CCFF;
+	color: #FFF;
 	font: bold 2.9em Arial, sans-serif;
 }
 
@@ -212,7 +212,7 @@ font: bold 2em Arial, Sans-Serif;}
 /*TITLES IN THE BODY*/
 h2 {
     font: Bold 2.5em Arial, Sans-Serif;
-    color: #FF3366;
+    color: #000;
     letter-spacing: -1px; }
 
 
