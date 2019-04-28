@@ -1,5 +1,9 @@
 /*VERTICAL COLORS*/
 body {
+  
+  background-image: url(P1320291.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
  background-color: #FFF;
  color: #FFF;
  padding: 0;
@@ -14,10 +18,9 @@ body {
 
 /*TITLE BAGROUND*/
 .header {
-	background: #303030;
-	color: #FFF;
+color: transparent;	
 	width: 950px;
-	height: 200px;
+	height: 100px;
 	margin: 0px;
 
 }
@@ -26,7 +29,7 @@ body {
 .header .title {
     padding: 10px 0 0px 0px;
     text-align:center;
-	color: #FFF;
+	color: #000;
 	font: bold 2.9em Arial, sans-serif;
 }
 
@@ -35,7 +38,7 @@ body {
 .header .slogan {
     padding: 10px 0 0px 0px;
         text-align:center;
-	color: #FFF;
+	color: #000;
 	font: bold 1.5em Arial, sans-serif;
 }
 
@@ -245,7 +248,10 @@ h1w { font: 1.3em Arial, Sans-Serif;
      color: #303030;
      text-align: left;
    }
-
+h1wi { font: 1.3em Arial, Sans-Serif;
+     color: #FFE4E1;
+     text-align: left;
+   }
 h1 { font: 1.3em Arial, Sans-Serif;
      color: #303030;
      text-align: justify;
@@ -281,14 +287,14 @@ ml { margin-left: 30px;
     
     background-color: #FFF;
     float: center;
-    color: #000;
+    color: #FFF;
     padding:0 150px 10px 150px;
     
 }
 
 
 .content { 
-    background: #FFF; 
+    background: transparent; 
 	margin: 0 auto;
 	padding: 0px;
 	width: 950px;
@@ -313,23 +319,22 @@ ml { margin-left: 30px;
 
 .sd_left {
 
-    background-color: #FFF;
+    background-color: transparent;
     float: left;
 	color: #000;
 	width: 560px;
 	height:510px;
-	padding: 0 15px 0px 15px; 
+	padding: 0 0px 0px 0px; 
 	
 }	
 
 .sd_right {
 
-    background-color: #FFF;
+    background-color: transparent;
     float: right;
 	color: #000;
 	width: 274px;
 		height:910px;
-	border-left: 1px dashed #303030;
 	padding:0 0 0 15px;
 }	
 
