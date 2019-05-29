@@ -218,7 +218,10 @@ h2 {
     font: Bold 2.5em Arial, Sans-Serif;
     color: #000;
     letter-spacing: -1px; }
-
+h20 {
+    font: 2em Arial, Sans-Serif;
+    color: #000;
+    letter-spacing: -1px; }
 
 /*FONT FOR SLOGAN*/
 h3 { font: 0.85em Arial, Sans-Serif;text-align:center; }
@@ -308,7 +311,7 @@ ml { margin-left: 30px;
 .main_content {
 	background: #FFF ;
 	background-color: #FFF;
-	width: 950px;
+	width: 1050px;
 	margin:0px;
 	padding:0px;
 
@@ -334,9 +337,9 @@ ml { margin-left: 30px;
     background-color: transparent;
     float: right;
 	color: #000;
-	width: 274px;
+	width: 374px;
 		height:910px;
-	padding:0 0 0 15px;
+	padding:0px 0px 0 5px;
 }	
 
 
