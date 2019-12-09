@@ -32,7 +32,7 @@ body{
 	margin: 10px;
 	padding: 0px;
 	width: 1200px;
-	height: 9000px;
+	height: 13000px;
 	color: #000;
 }
 
@@ -51,12 +51,45 @@ body{
 
 
 
-.bg2 { 
+.bg_ustadji_thanks { 
   /* The image used */
-  background-image: url(./images/surjeetji.JPG);
+  background-image: url(./images/IMG-20191208-WA0015.jpg);
   background-repeat: no-repeat;
-  background-size: 2000px 1124px;
- background-position: center top; 
+  background-size: 1275px 853px;
+ background-position: left top; 
+  background-repeat: no-repeat;
+}
+
+
+
+.bg_mand { 
+  /* The image used */
+  background-image: url(./images/IMG-20191208-WA0029.jpg);
+  background-repeat: no-repeat;
+  background-size: 1275px 853px;
+ background-position: left top; 
+  background-repeat: no-repeat;
+}
+
+
+
+.bg_all { 
+  /* The image used */
+  background-image: url(./images/IMG-20191209-WA0000.jpg);
+  background-repeat: no-repeat;
+  background-size: 1275px 870px;
+ background-position: left top; 
+  background-repeat: no-repeat;
+}
+
+
+
+.bg_jens_richard { 
+  /* The image used */
+  background-image: url(./images/IMG-20191205-WA0001.jpg);
+  background-repeat: no-repeat;
+  background-size: 1275px 870px;
+ background-position: left top; 
   background-repeat: no-repeat;
 }
 
