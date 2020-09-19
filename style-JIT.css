@@ -1,7 +1,7 @@
 
 
 body{
-  
+
  background-color: #000;
  color: #000;
  padding: 0;
@@ -13,8 +13,8 @@ body{
 
 
 
-.content { 
-    background: transparent; 
+.content {
+    background: transparent;
 
 	margin:70px;
 	padding: 0px;
@@ -26,8 +26,8 @@ body{
 
 
 
-.content_text { 
-    background: transparent; 
+.content_text {
+    background: transparent;
 
 	margin: 10px;
 	padding: 0px;
@@ -37,68 +37,68 @@ body{
 }
 
 
-.bg { 
+.bg {
   /* The image used */
   background-image:url(./images/JIT-cover-low-res.JPG);
   background-repeat: no-repeat;
   background-size: 1275px 717px;
- background-position: left top; 
+ background-position: left top;
   background-repeat: no-repeat;
   opacity: 0.7;
-  filter: alpha(opacity=70); 
+  filter: alpha(opacity=70);
 }
 
 
 
 
-.bg_ustadji_thanks { 
+.bg_ustadji_thanks {
   /* The image used */
   background-image: url(./images/IMG-20191208-WA0015.jpg);
   background-repeat: no-repeat;
   background-size: 1275px 853px;
- background-position: left top; 
+ background-position: left top;
   background-repeat: no-repeat;
 }
 
 
 
-.bg_mand { 
+.bg_mand {
   /* The image used */
   background-image: url(./images/IMG-20191208-WA0029.jpg);
   background-repeat: no-repeat;
   background-size: 1275px 853px;
- background-position: left top; 
+ background-position: left top;
   background-repeat: no-repeat;
 }
 
 
 
-.bg_all { 
+.bg_all {
   /* The image used */
   background-image: url(./images/IMG-20191209-WA0000.jpg);
   background-repeat: no-repeat;
   background-size: 1275px 870px;
- background-position: left top; 
+ background-position: left top;
   background-repeat: no-repeat;
 }
 
 
 
-.bg_jens_richard { 
+.bg_jens_richard {
   /* The image used */
   background-image: url(./images/IMG-20191205-WA0001.jpg);
   background-repeat: no-repeat;
   background-size: 1275px 870px;
- background-position: left top; 
+ background-position: left top;
   background-repeat: no-repeat;
 }
 
-.bg3 { 
+.bg3 {
   /* The image used */
   background-image: url(./images/JIT-Ta.JPG);
   background-repeat: no-repeat;
   background-size: 2000px 1124px;
- background-position: center top; 
+ background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -113,7 +113,7 @@ body{
 
 /*TITLE BAGROUND*/
 .header {
-color: transparent;	
+color: transparent;
 	width: 950px;
 	height: 100px;
 	margin: 30px;
@@ -165,7 +165,7 @@ br-thin {
 	  list-style:none;
 	      	  padding: 0px;
 	margin:  4px 0px 0px 0px;
-	  
+
 	}
 
 #nav a {
@@ -211,7 +211,7 @@ font: bold 2em Arial, Sans-Serif;}
     }
 
 /*Important for the ONE colone layout*/
-#nav ul ul a { 
+#nav ul ul a {
     width:350px;
     padding:10px -10px 10px 10px;
     text-align:center;
@@ -219,7 +219,7 @@ font: bold 2em Arial, Sans-Serif;}
 }
 
 /*Important for the ONE colone layout, color filled*/
-#nav ul ul li { 
+#nav ul ul li {
     width:370px;
 
 }
@@ -244,10 +244,10 @@ font: bold 2em Arial, Sans-Serif;}
 #nav ul li ul {
   opacity: 0;
   visibility:hidden;
-  
+
     -webkit-transition-duration: 0.2s;
     -webkit-transition-delay: 0.2s;
-    
+
     -moz-transition-duration: 0.2s;
     -moz-transition-delay: 0.2s;
     /* Standard syntax */
@@ -335,7 +335,7 @@ hc { font-family: Consolas;
      background: #F8F8F8;
    }
 
-.code { 
+.code {
      text-align: left;
 background: #F8F8F8;
     font-family: Consolas;
@@ -357,6 +357,9 @@ h1wi { font: 1.3em Arial, Sans-Serif;
      color:   #FFE4E1;
      text-align: left;
    }
+
+
+
 h1 { font: 1.3em Arial, Sans-Serif;
      color: #303030;
      text-align: justify;
@@ -389,12 +392,12 @@ ml { margin-left: 30px;
 
 /*class for contact*/
 .text_padding_contact {
-    
+
     background-color: #FFF;
     float: center;
     color: #FFF;
     padding:0 150px 10px 150px;
-    
+
 }
 
 
@@ -412,22 +415,22 @@ ml { margin-left: 30px;
 	width: 3740px;
 		height:910px;
 	padding:0px 0px 0 5px;
-}	
+}
 
 
 .text_padding {
-    
+
     background-color: #FFF;
     float: center;
     color: #000;
     padding:0 15px 10px 15px;
-    
+
 }
 
 
 
 
-.date { 
+.date {
     text-align: right;
     Color: #B0B0B0;
 	border-top: 1px solid #303030;
