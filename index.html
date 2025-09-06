@@ -9,35 +9,25 @@
 <body>
     <div class="content">
         <div class="header">
-            <div class="title">Boris Bolliet</div>
+            <div class="title">Bolliet Lab @ Cambridge</div>
         </div>
 
         <nav class="nav-container">
             <ul class="nav-menu">
-                <li><a href="#welcome" class="nav-link active" data-page="welcome">Welcome</a></li>
-                <li><a href="#about" class="nav-link" data-page="about">About</a></li>
-                <li><a href="#group" class="nav-link" data-page="group">Group</a></li>
+                <li><a href="#group" class="nav-link active" data-page="group">Group</a></li>
                 <li><a href="#research" class="nav-link" data-page="research">Research</a></li>
                 <li><a href="#teaching" class="nav-link" data-page="teaching">Teaching</a></li>
                 <li><a href="#opportunities" class="nav-link" data-page="opportunities">Opportunities</a></li>
                 <li><a href="#press" class="nav-link" data-page="press">Press</a></li>
+                <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
             </ul>
         </nav>
 
         <div class="main_content">
-            <!-- Welcome Page -->
-            <div id="welcome" class="page-content active">
-                <div class="welcome-content">
-                    <p>I am an Assistant Teaching Professor and a Prinicipal Investigator in the Physics Department at the University of Cambridge, the Agentic AI Research Lead in the Infosys-Cambridge AI Centre and a Fellow of Trinity Hall.</p>
-                    
-                    <p></p>
-                      My current research focuses mainly on agentic AI: How can we we automate scientific discovery?</p>
-                </div>
-            </div>
-
             <!-- About Page -->
             <div id="about" class="page-content">
                 <div class="about-content">
+                    <h2>Boris Bolliet (PI)</h2>
 
                     <ul>
                         <li><a href="https://www.linkedin.com/in/boris-bolliet" target="_blank">LinkedIn</a></li>
@@ -62,10 +52,11 @@
             </div>
 
             <!-- Group Page -->
-            <div id="group" class="page-content">
+            <div id="group" class="page-content active">
                 <div class="group-content">
                     <h3>Current Group Members</h3>
                     <ul>
+                        <li><a href="#about" class="about-link" data-page="about">Boris Bolliet (PI)</a></li>
                         <li>Tom Borrett (PhD, Inaugural Infosys-Cambridge AI Centre PhD Scholarship, 2025-)</li>
                         <li>Patrick Janulewicz (PhD, Harding Distinguished Postgraduate Scholar, 2025-)</li>
                         <li>Andy Nilipour (MPhil, Churchill Scholar, 2025-)</li>
@@ -91,12 +82,12 @@
             <div id="research" class="page-content">
                 <div class="research-content">
                     <h3>Research Focus</h3>
-                    <p>I work on developing AI systems that can autonomously conduct scientific research, from hypothesis generation to paper writing.</p>
-                    My research is funded by Cambridge (C2D3), Infosys and Google (Research Scholar Program Award 2025).
+                    <p>We work on developing AI systems that can autonomously conduct scientific research.</p>
+                    Our research is funded by Cambridge (C2D3), Infosys and Google (Research Scholar Program Award 2025).
                   
                     <h3>Research Collaborations</h3>
                     <ul>
-                        <li>Infosys-Cambridge AI Centre (Agentic AI Research Lead)</li>
+                        <li>Infosys-Cambridge AI Centre (Agentic AI Research Lead, Director: James Fergusson)</li>
                         <li>Simons Observatory Collaboration (Senior Member, SZ Working Group Advisor)</li>
                         <li>Atacama Cosmology Telescope Collaboration</li>
                     </ul>
@@ -113,9 +104,11 @@
             <!-- Teaching Page -->
             <div id="teaching" class="page-content">
                 <div class="teaching-content">
-                                        <h3>Current Courses</h3>
+Our group is involved in the following courses:
+<br/>
+<br/>
                     <ul>
-                        <li>Multi-Agent Reinforcement learning and Agentic AI</li>
+                        <li>Multi-Agent Reinforcement learning and Agentic AI - MPhil Data Intensive Science</li>
                         <li>Research Computing and Software Development - MPhil in Data Intensive Science,  MPhil in Economics and Data Science, and the Center for Doctoral Training in Data Intensive Science (CDT)</li>
                     </ul>
                     
@@ -125,7 +118,7 @@
             <!-- Opportunities Page -->
             <div id="opportunities" class="page-content">
                 <div class="opportunities-content">
-                    <p>I welcome applications from top students and postdocs interested in working with me. Proficiency in coding, statistics and machine learning is essential.</p>
+                    <p>We welcome applications from top students and postdocs interested in working with me. Proficiency in coding, statistics and machine learning is essential.</p>
 
                     <h3>Contact</h3>
                     <p>E-mail: bb667@cam.ac.uk<br/>
@@ -146,6 +139,19 @@
 
                 </div>
             </div>
+
+            <!-- Contact Page -->
+            <div id="contact" class="page-content">
+                <div class="contact-content"> </div>
+                    <p><strong>E-mail:</strong> bb667@cam.ac.uk</p>
+                    <p><strong>Address:</strong><br/>
+                    Cavendish Laboratory<br/>
+                    JJ Thomson Avenue<br/>
+                    Cambridge CB3 0HE<br/>
+                    United Kingdom</p>
+                    <p><strong>Office:</strong> Room F26 in Battcock</p>
+                 </div>
+            </div>
         </div>
     </div>
 
@@ -153,8 +159,10 @@
         // Simple navigation functionality
         document.addEventListener('DOMContentLoaded', function() {
             const navLinks = document.querySelectorAll('.nav-link');
+            const aboutLinks = document.querySelectorAll('.about-link');
             const pageContents = document.querySelectorAll('.page-content');
 
+            // Handle navigation links
             navLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
@@ -171,6 +179,23 @@
                     const targetElement = document.getElementById(targetPage);
                     if (targetElement) {
                         targetElement.classList.add('active');
+                    }
+                });
+            });
+
+            // Handle about links (hidden page access)
+            aboutLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class from all links and pages
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    pageContents.forEach(p => p.classList.remove('active'));
+                    
+                    // Show about page
+                    const aboutElement = document.getElementById('about');
+                    if (aboutElement) {
+                        aboutElement.classList.add('active');
                     }
                 });
             });

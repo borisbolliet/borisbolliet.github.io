@@ -81,34 +81,48 @@ body {
 
 
 /* Content Styling */
-.welcome-content,
 .about-content,
 .research-content,
 .teaching-content,
 .group-content,
 .opportunities-content,
-.press-content {
+.press-content,
+.contact-content {
     line-height: 1.8;
     font-size: 1.1em;
 }
 
-.welcome-content p,
 .about-content p,
 .research-content p,
 .teaching-content p,
 .group-content p,
 .opportunities-content p,
-.press-content p {
+.press-content p,
+.contact-content p {
     margin-bottom: 15px;
 }
 
-.welcome-content h3,
+.about-content h2,
+.research-content h2,
+.teaching-content h2,
+.group-content h2,
+.opportunities-content h2,
+.press-content h2,
+.contact-content h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
 .about-content h3,
 .research-content h3,
 .teaching-content h3,
 .group-content h3,
 .opportunities-content h3,
-.press-content h3 {
+.press-content h3,
+.contact-content h3 {
     color: #333;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -116,24 +130,24 @@ body {
     font-weight: bold;
 }
 
-.welcome-content ul,
 .about-content ul,
 .research-content ul,
 .teaching-content ul,
 .group-content ul,
 .opportunities-content ul,
-.press-content ul {
+.press-content ul,
+.contact-content ul {
     margin-left: 20px;
     margin-bottom: 15px;
 }
 
-.welcome-content li,
 .about-content li,
 .research-content li,
 .teaching-content li,
 .group-content li,
 .opportunities-content li,
-.press-content li {
+.press-content li,
+.contact-content li {
     margin-bottom: 5px;
 }
 
