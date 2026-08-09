@@ -18,6 +18,14 @@ body {
     padding: 20px 0;
 }
 
+.header .uni-logo {
+    display: block;
+    width: 280px;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto 18px auto;
+}
+
 .header .title {
     font-size: 2.5em;
     font-weight: bold;
@@ -174,6 +182,12 @@ a:hover {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header .uni-logo {
+        width: 200px;
+        max-width: 80%;
+        margin-bottom: 14px;
+    }
+
     .portrait {
         float: none;
         display: block;
@@ -191,7 +205,15 @@ a:hover {
         padding: 10px 15px;
     }
     
-    .header .title {
+    .header .uni-logo {
+    display: block;
+    width: 280px;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto 18px auto;
+}
+
+.header .title {
         font-size: 2em;
     }
     
