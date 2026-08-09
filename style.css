@@ -162,8 +162,26 @@ a:hover {
     text-decoration: underline;
 }
 
+
+.portrait {
+    float: right;
+    width: 200px;
+    max-width: 40%;
+    height: auto;
+    margin: 0 0 15px 25px;
+    border-radius: 4px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
+    .portrait {
+        float: none;
+        display: block;
+        width: 160px;
+        max-width: 60%;
+        margin: 0 auto 20px auto;
+    }
+
     .nav-menu {
         flex-direction: column;
         text-align: center;
