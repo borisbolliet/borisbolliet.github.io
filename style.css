@@ -172,6 +172,18 @@ a:hover {
     border-radius: 4px;
 }
 
+code.pkg {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    background-color: #f2f3f5;
+    border: 1px solid #e2e4e8;
+    border-radius: 4px;
+    padding: 1px 7px;
+    white-space: nowrap;
+}
+
 .site-footer {
     text-align: center;
     margin-top: 60px;
