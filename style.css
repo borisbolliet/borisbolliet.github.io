@@ -18,14 +18,6 @@ body {
     padding: 20px 0;
 }
 
-.header .uni-logo {
-    display: block;
-    width: 280px;
-    max-width: 70%;
-    height: auto;
-    margin: 0 auto 18px auto;
-}
-
 .header .title {
     font-size: 2.5em;
     font-weight: bold;
@@ -180,12 +172,24 @@ a:hover {
     border-radius: 4px;
 }
 
+.site-footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px 0 10px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.site-footer .uni-logo {
+    width: 190px;
+    max-width: 55%;
+    height: auto;
+    opacity: 0.85;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    .header .uni-logo {
-        width: 200px;
-        max-width: 80%;
-        margin-bottom: 14px;
+    .site-footer .uni-logo {
+        width: 150px;
     }
 
     .portrait {
@@ -205,15 +209,7 @@ a:hover {
         padding: 10px 15px;
     }
     
-    .header .uni-logo {
-    display: block;
-    width: 280px;
-    max-width: 70%;
-    height: auto;
-    margin: 0 auto 18px auto;
-}
-
-.header .title {
+    .header .title {
         font-size: 2em;
     }
     
